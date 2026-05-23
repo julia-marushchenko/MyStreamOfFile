@@ -28,5 +28,8 @@ public class Main {
         // Printing streamOfString to console.
         streamOfString.forEach(System.out::println); // Output: Hello World.
 
+        // Closing stream.
+        streamOfString.close();
+
     }
 }
